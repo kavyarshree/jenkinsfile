@@ -7,6 +7,8 @@ pipeline {
         sh '''
 	#!/bin/bash        
         echo "this is a script"
+	cd /var/lib/jenkins/workspace/c-project
+	make
 	'''
             }
         }
