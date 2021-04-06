@@ -7,7 +7,7 @@ pipeline {
         sh '''
 	#!/bin/bash        
         echo "this is a script"
-	cd /var/lib/jenkins/workspace/job-1
+	cd /var/lib/jenkins/workspace/job1
 	make
 	'''
             }
