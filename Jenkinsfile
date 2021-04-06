@@ -7,7 +7,8 @@ pipeline {
         sh '''
 	#!/bin/bash        
         echo "this is a script"
-	cd /home/ec2-user/workspace/pipelinejob/
+	git clone https://github.com/kavyarshree/c-project.git
+	cd /home/ec2-user/workspace/c-project/
 	make
 	'''
             }
