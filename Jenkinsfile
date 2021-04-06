@@ -7,7 +7,7 @@ pipeline {
         sh '''
 	#!/bin/bash        
         echo "this is a script"
-	cd /home/ec2-user/git-practice/c-project/
+	cd /var/lib/jenkins/workspace/job-1
 	make
 	'''
             }
